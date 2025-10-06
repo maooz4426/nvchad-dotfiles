@@ -1,7 +1,10 @@
 local options = {
   formatters_by_ft = {
     lua = { "stylua" },
-    go = { "goimports", "gofmt" },  -- カンマを追加
+    go = { "goimports", "gofmt" },
+    typescript = { "biome" },
+    javascript = { "biome" },
+
     -- css = { "prettier" },
     -- html = { "prettier" },
   },
