@@ -6,4 +6,5 @@ return {
   "lua_ls",
   "gh_actions_ls",
   "ts_ls",
+  "tsp_server",
 }
