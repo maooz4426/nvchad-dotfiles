@@ -7,4 +7,5 @@ return {
   "gh_actions_ls",
   "ts_ls",
   "tsp_server",
+  "terraformls"
 }

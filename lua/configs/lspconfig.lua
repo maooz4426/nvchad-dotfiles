@@ -66,3 +66,5 @@ lspconfig.lua_ls.setup({
 lspconfig.gh_actions_ls.setup({})
 
 lspconfig.tsp_server.setup({})
+
+lspconfig.terraformls.setup({})
