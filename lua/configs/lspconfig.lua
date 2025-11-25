@@ -3,6 +3,7 @@ local lspconfig = require("lspconfig")
 
 vim.lsp.enable(require("configs.lsp"))
 
+lspconfig.html.setup({})
 -- read :h vim.lsp.config for changing options of lsp servers
 lspconfig.gopls.setup({
   settings = {
@@ -68,3 +69,8 @@ lspconfig.gh_actions_ls.setup({})
 lspconfig.tsp_server.setup({})
 
 lspconfig.terraformls.setup({})
+
+lspconfig.svelte.setup({})
+
+lspconfig.tailwindcss.setup({})
+lspconfig.dockerls.setup({})
